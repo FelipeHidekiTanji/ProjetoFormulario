@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +9,7 @@
 <body>
     <div class="container">
         <header class="cabecalho">
-            <h3>Cadastre seu veículo para vender mais rápido.</h3>
+            <h3>Cadastre seu veículo para vender mais rápido</h3>
         </header>
         <div class="form-container">
             <div class="form-header">
@@ -17,8 +17,18 @@
             </div>
         </div>
         <div class="form-body">
-            <h1 class="titulo-form">Venda fácil seu carro.</h1>
-            <p>Descreva as características do seu carro e marque os adicionais que ele possui.</p>
+            <h1 class="titulo-form">Venda fácil seu carro</h1>
+            <p>Descreva as características do seu carro e marque os adicionais que ele possui</p>
+            <form>
+                <div class="caixaInputs">
+                    <label for="title">Título do anúncio <span class="obrigatorio">*</span></label>
+                    <input type="text" name="title" id="title" class="block" placeholder="Digite um titúlo para o anúncio">
+                </div>
+                <div class="caixaInputs">
+                    <label for="title">Preço <span class="obrigatorio">*</span></label>
+                    <input type="number" name="preco" id="preco" class="block" placeholder="Digite um preço">
+                </div>
+            </form>
         </div>
     </div>
 </body>
