@@ -33,7 +33,7 @@ textarea {
 .cabecalho {
     height: 160px;
     padding: 20px;
-    background-color: #2533fd;
+    background-color: #0067c7;
 } 
 
 .cabecalho h3 {
@@ -55,8 +55,8 @@ textarea {
 }
 
 .form-header p{
-    color: #5365ff;
-    border-bottom: 2px solid #4e51ff;
+    color: #12007a;
+    border-bottom: 2px solid #4b4eff;
     width: 100%;
     text-align: center;
     margin: 0 auto;
