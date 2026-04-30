@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p, label {
-    color: #444;
+   color: #444;
 }
 
 input {
@@ -33,16 +33,16 @@ textarea {
 .cabecalho {
     height: 160px;
     padding: 20px;
-    background-color: #005fcc;
-} 
+    background-color: #2759b6;
+}
 
 .cabecalho h3 {
-    color: #ffffff;
+    color: #fff;
     margin-top: 0;
 }
 
 .form-container {
-    background-color: #4fb9ff;
+    background-color: #fdfdfd;
     width: 60%;
     margin: 0 auto;
     position: relative;
@@ -55,8 +55,8 @@ textarea {
 }
 
 .form-header p{
-    color: #12007a;
-    border-bottom: 2px solid #4b4eff;
+    color: #73a2e0;
+    border-bottom: 2px solid #5aa1ff;
     width: 100%;
     text-align: center;
     margin: 0 auto;
@@ -89,42 +89,42 @@ textarea {
     display: block;
 }
 
-.caixaOpicional {
+.caixaOpcional {
     display: inline-block;
     margin: 0 30px 0 30px;
 }
 
-.caixaOpicional li {
+.caixaOpcional li {
     list-style: none;
     margin-bottom: 5px;
 }
 
 .btn-submit {
-    background-color: #3a6fff;
+    background-color: #0444a3;
     color: #fff;
     border: 2px solid transparent;
     width: 150px;
     height: 50px;
     cursor: pointer;
     text-transform: uppercase;
-    transition: 0,5s;
+    transition: 0.5s;
 }
 
 .btn-submit:hover {
     background-color: #fff;
-    color: #3a66b7;
-    border-color: #3aa9b7;
+    color: #3353ad;
+    border-color: #8cd1ff;
 }
 
 hr {
-    margin-top: 35px;
-    height: 6px;
-    background: linear-gradient(to right, transparent, #3a66b7, transparent);
+    margin-top: 20px;
+    height: 3px;
+    background: linear-gradient(to right, transparent, #245674, transparent);
     margin: 20px 0;
     border: none;
 }
 
-#listarCarros {
+#listaCarros {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -133,13 +133,13 @@ hr {
 
 .card {
     width: 250px;
-    background: white;
+    background: rgb(215, 235, 99);
     border-radius: 8px;
-    padding: 8px;
-    box-shadow: 0 2px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .card img {
-     width: 100%;
+    width: 100%;
     border-radius: 5px;
 }
