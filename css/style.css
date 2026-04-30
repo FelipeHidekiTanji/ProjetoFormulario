@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #f0ebf8;
+    background-color: #bce4ff;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -18,7 +18,7 @@ p, label {
 
 input {
     border: none;
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px solid #98b3b9;
     padding: 10px 0;
 }
 
@@ -133,7 +133,7 @@ hr {
 
 .card {
     width: 250px;
-    background: rgb(215, 235, 99);
+    background: rgb(115, 180, 192);
     border-radius: 8px;
     padding: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
